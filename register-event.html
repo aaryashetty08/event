@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register for Event</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Register for Event</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="create-event.html">Create Event</a></li>
+                <li><a href="view-events.html">View Events</a></li>
+                <li><a href="register-event.html">Register for Event</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="event">Select Event:</label>
+            <select id="event" name="event">
+                <option value="science-fair">Science Fair</option>
+                <option value="cultural-fest">Cultural Fest</option>
+                <option value="tech-symposium">Tech Symposium</option>
+            </select><br><br>
+
+            <button type="submit">Register</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 College Event Management System</p>
+    </footer>
+</body>
+</html>
